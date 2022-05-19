@@ -1,7 +1,7 @@
 name: Git Action
 on: push
 jobs: 
-  check-angular-version:
+  check-react-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
