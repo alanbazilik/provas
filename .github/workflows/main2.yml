@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '16'
       - run: npm install -g create-react-app
-      - run: ng --version
+      - run: npm view react version
